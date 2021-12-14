@@ -1,0 +1,169 @@
+@media (max-width: 1200px) {
+    .promo {
+        &_header {
+            font-size: 38px;
+        }
+
+        &_subheader {
+            font-style: 21px;
+        }
+    }
+
+    .slick-slide {
+        img {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    .footer {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .slick-slide {
+        img {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    .carousel .slick-prev img,
+    .carousel .slick-next img {
+        width: 29px;
+        height: 46px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 25px;
+        &_left {
+            font-size: 30px
+        }
+    }
+
+    .button {
+        &_submit {
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &__logo img {
+            width: 80%;
+        }
+
+        &__official {
+            padding-right: 50px;
+        }
+
+        &__phone {
+            font-size: 15px;
+        }
+
+        .button {
+            width: 130px;
+            height: 30px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            padding-right: 20px;
+        }
+
+        &__header {
+            font-size: 35px;
+        }
+
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+
+    .benefits {
+        padding-bottom: 100px;
+
+        &icon {
+            font-size: 12px;
+
+            span {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .consultation {
+        padding-top: 70px;
+        padding-left: 30px;
+        .slick-prev{
+            left: 4px;
+        }
+        .feed-form{
+            margin-top: 50px;
+            input {
+                height: 50px;
+            }
+        }
+    }
+    .carousel {
+        .slick-next {
+            right: 0px;
+        }
+        .slick-prev {
+            left: 0px;
+        }
+
+        .slick-slide {
+            img {
+            width: 60%;
+            }
+        }
+}
+
+.catalog {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.review {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.footer {
+    iframe {
+    height: 400px;
+    }
+    &__info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 170px;
+    }
+    &__addr {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    &__phone {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    &__social-item {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+}
+
+
+@media (max-width: 480px) {
+    
+}

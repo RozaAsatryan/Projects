@@ -1,0 +1,47 @@
+.benefits {
+        padding: 73px 0 164px 0;
+        background: #F6F6F6;
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background: #F6F6F6;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 300;
+        font-size: 14px;
+        &_animated {
+           animation-name: heartbeat;
+           animation-duration: 1.5s; 
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        span {
+            display: block;
+            color: #0D0D0D;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 35px 0 20px 0;            
+        }
+        a {
+            margin: 0;
+            color: #FF0000;
+            text-decoration-line: underline;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: MuseoModerno;
+        }
+        img {
+            margin-top: 30px;
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
